@@ -318,8 +318,8 @@ If you want to get some gradients inspiration I highly recommend you to check th
 
 ```scss
 // Default values
-$main-color: #02aab0;
-$secondary-color: #00cdac;
+$main-color:rgb(176, 37, 2);
+$secondary-color:rgb(0, 99, 205);
 ```
 
 ---

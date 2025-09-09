@@ -10,7 +10,7 @@ export const targetElements = [
   {
     element: ".section-title",
     animation: {
-      delay: 300,
+      delay: 150,
       distance: "0px",
       origin: "bottom",
     },
@@ -18,49 +18,66 @@ export const targetElements = [
   {
     element: ".hero-title",
     animation: {
-      delay: 500,
+      delay: 250,
       origin: window.innerWidth > 768 ? "left" : "bottom",
     },
   },
   {
     element: ".hero-cta",
     animation: {
-      delay: 1000,
+      delay: 500,
       origin: window.innerWidth > 768 ? "left" : "bottom",
     },
   },
   {
     element: ".about-wrapper__image",
     animation: {
-      delay: 600,
+      delay: 300,
       origin: "bottom",
     },
   },
   {
     element: ".about-wrapper__info",
     animation: {
-      delay: 1000,
+      delay: 500,
       origin: window.innerWidth > 768 ? "left" : "bottom",
     },
   },
   {
     element: ".project-wrapper__text",
     animation: {
-      delay: 500,
+      delay: 250,
       origin: window.innerWidth > 768 ? "left" : "bottom",
     },
   },
   {
     element: ".project-wrapper__image",
     animation: {
-      delay: 1000,
+      delay: 500,
       origin: window.innerWidth > 768 ? "right" : "bottom",
     },
   },
   {
     element: ".contact-wrapper",
     animation: {
-      delay: 800,
+      delay: 400,
+      origin: "bottom",
+    },
+  },
+  {
+    element: ".experience-wrapper__text",
+    animation: {
+      delay: 250,
+      origin: window.innerWidth > 768 ? "left" : "bottom",
+    },
+  },
+  {
+    element: ".experience-wrapper__image",
+  },
+  {
+    element: ".section-divider",
+    animation: {
+      delay: 400,
       origin: "bottom",
     },
   },
